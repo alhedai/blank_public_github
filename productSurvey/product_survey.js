@@ -18,7 +18,8 @@ function submitFeedback() {
     document.getElementById("userJob").innerHTML = job;
     document.getElementById("userDesignation").innerHTML = designation;
     document.getElementById("userProductChoice").innerHTML = productType;
-
+    document.getElementById("userExperince").innerHTML = feedbackText;
+    
     document.getElementById("userInfo").style.display = "block";
     alert("thank you for your feedback");
 }
